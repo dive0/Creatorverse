@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  
+  .navButton {
+    @apply bg-blue-500 text-2xl p-2 rounded-lg
+  }
+}
