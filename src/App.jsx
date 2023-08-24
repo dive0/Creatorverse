@@ -23,9 +23,9 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="min-h-screen overflow-x-hidden bg-slate-800">
       <div className="text-center py-4 space-y-3">
-        <h1 className="text-5xl">Creatorverse</h1>
+        <h1 className="text-5xl text-white">Creatorverse</h1>
         <div className="space-x-3">
           <button className="navButton">
             <Link to="/">Home</Link>
@@ -61,7 +61,7 @@ function App() {
           }
         />
       </Routes>
-    </>
+    </div>
   );
 }
 

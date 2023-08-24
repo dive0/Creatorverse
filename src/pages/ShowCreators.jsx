@@ -4,7 +4,7 @@ const ShowCreators = (props) => {
   const {creators} = props;
 
   return (
-    <div>
+    <div className="text-white text-2xl my-3">
       {creators && creators.length > 0 ? (
         <div>
           {creators.map((creator) => (
