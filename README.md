@@ -4,7 +4,7 @@ Submitted by: **Shi Wei Zheng**
 
 About this web app: **A collection of content creator from various platforms.**
 
-Time spent: **👉🏿 X** hours
+Time spent: **6** hours
 
 ## Required Features
 
@@ -12,7 +12,7 @@ The following **required** functionality is completed:
 
 <!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
 - [X] **A logical component structure in React is used to create the frontend of the app**
-- [ ] **At least five content creators are displayed on the homepage of the app**
+- [X] **At least five content creators are displayed on the homepage of the app**
 - [X] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
 - [X] **API calls use the async/await design pattern via Axios or fetch()**
 - [X] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='src/assets/Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ShareX
@@ -47,7 +47,7 @@ GIF created with ShareX
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
-
+- The main challenge I encountered was when styling the pages. I am not sure what's a good design so I have to play around with the css to create something basic.
 ## License
 
 Copyright [2023] [Shi Wei Zheng]
