@@ -27,8 +27,8 @@ const AddCreator = () => {
   };
 
   return (
-    <div>
-      <h1>AddCreator</h1>
+    <div className="form">
+      <h1>Add Creator</h1>
 
       <form>
         <Form

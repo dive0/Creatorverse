@@ -6,13 +6,13 @@ const ShowCreators = (props) => {
   return (
     <div className="text-white text-2xl my-3">
       {creators && creators.length > 0 ? (
-        <div>
+        <div className="grid grid-cols-2 justify-items-center">
           {creators.map((creator) => (
             <Card key={creator.id} creator={creator} />
           ))}
         </div>
       ) : (
-        <div>
+        <div className="text-center">
           <p>There are no creator</p>
         </div>
       )}

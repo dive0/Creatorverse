@@ -3,8 +3,33 @@
 @tailwind utilities;
 
 @layer base {
-  
   .navButton {
-    @apply bg-blue-500 text-2xl p-2 rounded-lg
+    @apply bg-blue-500 text-2xl p-2 rounded-lg hover:bg-blue-300 transition
   }
+
+  .form {
+    @apply flex items-center flex-col space-y-3
+  }
+
+  .form h1 {
+    @apply text-3xl text-white
+  }
+
+  .form button {
+    @apply bg-blue-500 text-lg p-1 rounded hover:bg-blue-300 transition
+  }
+
+  form {
+    @apply space-y-3
+  }
+
+  form label {
+    @apply text-white mx-2 text-lg
+  }
+
+  form input, form textarea {
+    @apply bg-blue-900
+  }
+
+  
 }

@@ -13,6 +13,7 @@ const Form = (props) => {
         required
         className="text-white p-1"
       />
+      <br />
 
       <label htmlFor="url">URL:</label>
       <input
@@ -24,17 +25,19 @@ const Form = (props) => {
         required
         className="text-white p-1"
       />
+      <br />
 
       <label htmlFor="description">Description:</label>
-      <input
-        type="text"
+      <textarea
         id="description"
         name="description"
+        rows="3" cols="25"
         defaultValue={description}
         onChange={(e) => setDescription(e.target.value)}
         required
         className="text-white p-1"
       />
+      <br />
 
       <label htmlFor="imageURL">ImageURL:</label>
       <input
@@ -45,6 +48,7 @@ const Form = (props) => {
         onChange={(e) => setImageURL(e.target.value)}
         className="text-white p-1"
       />
+      <br />
     </>
   );
 };

@@ -42,7 +42,7 @@ const EditCreator = (props) => {
   };
 
   return (
-    <div>
+    <div className="form">
       <h1>Update Creator</h1>
       <form>
         <Form
